@@ -1,5 +1,4 @@
 import run from "aocrunner";
-import fs from "fs";
 
 const parseInput = (rawInput: string) => rawInput.split("\n\n")
   .map(s => s.split("\n").map(s => Number(s)).reduce((acc, n) => acc + n, 0));
